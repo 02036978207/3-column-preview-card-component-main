@@ -1,0 +1,87 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    background: var(--Very-light-gray);
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 32px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+    
+}
+
+.car{
+    margin-bottom: 40px;
+}
+
+.a{
+    color: var(--Bright-orange);
+}
+
+.b{
+    color: var(--Dark-cyan);
+}
+
+.c{
+    color: var(--Very-dark-cyan);
+}
+
+#cardum{
+    
+    background-color: var(--Bright-orange);
+    padding: 40px;
+    border-radius: 20px 0 0 20px;
+}
+
+#carddois{
+    
+    background-color: var(--Dark-cyan);
+    padding: 40px;
+}
+
+#cardtres{
+    
+    background-color: var(--Very-dark-cyan);
+    padding: 40px;
+    border-radius: 0 20px 20px 0;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+p{
+    color: var(--Transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+button{
+    border-radius: 30px;
+    padding: 15px;
+    width: 70%;
+    margin-top: 100px;
+    border: none;
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+}
